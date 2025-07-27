@@ -27,6 +27,7 @@ List<Product> products = [
   Product(name: "Rice", imagePath: "assets/images/menu_6.png", price: "60RS",desc: "Rice is a staple food made from small, starchy grains, commonly boiled or steamed. It’s mild in flavor and pairs well with curries, vegetables, or meat. Popular worldwide, rice is a key part of daily meals in many cultures, especially in Asia."),
   Product(name: "Pasta", imagePath: "assets/images/menu_7.png", price: "100RS",desc: "Pasta is an Italian dish made from wheat flour dough, shaped into various forms like spaghetti, penne, or macaroni, and typically boiled. It’s often served with sauces like tomato, cheese, or pesto, and can include vegetables, meat, or seafood. Tasty, filling, and endlessly customizable!"),
   Product(name: "Combo Meal", imagePath: "assets/images/menu_8.png", price: "110RS",desc: "Combo meal is a set of food items served together as a single meal, usually including a main dish (like a burger or sandwich), a side (like fries), and a drink. It's convenient, budget-friendly, and great for a quick, complete meal."),
+  Product(name: "Dummy", imagePath: "assets/images/5332447875512265802.jpg", price: "10Rs",desc: "this is dummy"),
 ];
 
 
