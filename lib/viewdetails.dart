@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'main.dart'; // Import where Product is defined
+import 'shopcatalog.dart';
 
 class ViewDetails extends StatelessWidget {
   final Product product;
@@ -14,7 +14,7 @@ class ViewDetails extends StatelessWidget {
         padding: EdgeInsets.all(20),
         child: ListView(
           children: [
-            Image.asset(product.imagePath, width: 300, height: 350),
+            Image.network(product.image, width: 300, height: 350),
             SizedBox(height: 10),
             Text(product.name, style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold), textAlign: TextAlign.center,),
             SizedBox(height: 10),
